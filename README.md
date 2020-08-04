@@ -48,3 +48,21 @@ CREATE TABLE `course_student` (
 ```  
 
 ###  结果展示  
+
+####  课程信息界面  
+1. 学科基础信息支持新增、修改和删除    
+2. 当前状态记录（第一次访问、成功添加、返回该网页）  
+![course](https://github.com/brandondeemo/student_course_grade_simple/blob/master/web/images/ScreenFlow1.gif)  
+
+####  学生信息界面
+1. 学生基础信息支持新增、修改和删除     
+   基础信息包含：姓名、性别、学号(要求唯一)、年龄  
+2. 当前状态记录（第一次访问、成功添加、返回该网页） 
+![student](https://github.com/brandondeemo/student_course_grade_simple/blob/master/web/images/ScreenFlow2.gif)  
+
+####  成绩信息界面
+1.学科成绩录入   
+4.学生学科成绩分析，例如：展示平均分、最低分、最高分以及具体分数线以上分数人数  
+![grade](https://github.com/brandondeemo/student_course_grade_simple/blob/master/web/images/ScreenFlow3.gif)  
+
+

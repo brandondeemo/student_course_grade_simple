@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0"> 
+    <welcome-file-list>
+        <welcome-file>course.jsp</welcome-file>
+    </welcome-file-list>
+
+    <servlet>
+        <servlet-name>courseserv</servlet-name>
+        <servlet-class>server.course</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>courseserv</servlet-name>
+        <url-pattern>/server.course</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>studentserv</servlet-name>
+        <servlet-class>server.student</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>studentserv</servlet-name>
+        <url-pattern>/addstudent</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>gradeserv</servlet-name>
+        <servlet-class>server.grade</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>gradeserv</servlet-name>
+        <url-pattern>/grade</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>delcourserow</servlet-name>
+        <servlet-class>server.delcourserow</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delcourserow</servlet-name>
+        <url-pattern>/delcourserow</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>delstudentrowserv</servlet-name>
+        <servlet-class>server.delstudentrow</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delstudentrowserv</servlet-name>
+        <url-pattern>/delstudentrow</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>delgraderowserv</servlet-name>
+        <servlet-class>server.delgraderow</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>delgraderowserv</servlet-name>
+        <url-pattern>/delgraderow</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>showanalysisserv</servlet-name>
+        <servlet-class>server.analysis</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>showanalysisserv</servlet-name>
+        <url-pattern>/analysis</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+</web-app>
